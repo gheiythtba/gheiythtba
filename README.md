@@ -4,7 +4,6 @@
   <a href="https://github.com/gheiythtba">
     <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
-
   <img
     src="https://hits.sh/github.com/gheiythtba.svg"
     alt="Profile Views"
