@@ -1,0 +1,60 @@
+name: Update Profile Views
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-views:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get repository traffic
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VIEWS=$(gh api \
+            repos/${{ github.repository }}/traffic/views \
+            --jq '.count')
+
+          echo "Repository views: $VIEWS"
+
+          mkdir -p .github/profile
+
+          echo "$VIEWS" > .github/profile/views.txt
+
+      - name: Generate badge
+        run: |
+          VIEWS=$(cat .github/profile/views.txt)
+
+          cat > .github/profile/views.svg <<EOF
+          <svg xmlns="http://www.w3.org/2000/svg" width="150" height="28">
+            <rect width="150" height="28" rx="4" fill="#24292f"/>
+            <text x="10" y="18"
+                  font-family="Arial, sans-serif"
+                  font-size="12"
+                  fill="white">
+              Profile Views: $VIEWS
+            </text>
+          </svg>
+          EOF
+
+      - name: Commit updated counter
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/profile/
+
+          git diff --cached --quiet || \
+            git commit -m "chore: update profile views"
+
+          git push
