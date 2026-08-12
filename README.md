@@ -1,42 +1,111 @@
-<p align="center">
- <img src="https://user-images.githubusercontent.com/22797857/90096298-b90f4b00-dd54-11ea-9a31-00ad53f8ec04.gif" width="453" height="365"/><br>
- Always busy, Always on the grind</p>
+# 👋 Hi, I'm Gheiyth Tabarki
 
-<h2 align="center"> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">  Hi there!</h2>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22797857/90096298-b90f4b00-dd54-11ea-9a31-00ad53f8ec04.gif" width="420"/>
+</p>
+
+<p align="center">
+  <strong>Software Engineer · Full-Stack Developer · Problem Solver</strong>
+</p>
+
+<p align="center">
+  Building reliable, scalable, and meaningful software — one line of code at a time.
+</p>
+
+---
+
+## 👨‍💻 About Me
+
+I'm a **Software Engineer and Full-Stack Developer** passionate about designing and building modern web applications.
+
+My main focus is developing **clean, maintainable, and scalable solutions**, from intuitive frontends to robust backend architectures and database systems.
 
 ```java
+public class GheiythTabarki {
 
-public class TabarkiGheiyth implements AwesomeProgrammer {
-    private final String university = "Higher School of Engineering and Technology, Esprit , Ariana , Tunisia";
-    private final short graduationYear = 2025;
-    private final String degree = "Engineer's degree";
+    private final String role = "Software Engineer";
+    private final String focus = "Full-Stack Development";
+    private final String location = "Tunisia";
 
-    private String currentFocus = "Full Stack";
+    private final String[] interests = {
+        "Web Development",
+        "Backend Architecture",
+        "Database Engineering",
+        "DevOps & Automation",
+        "Software Architecture"
+    };
 
-    enum TechStack {
-        JAVA, ANGULAR, JS, TS, JPA, MVC, SQL, SPRINGBOOT, CRUD, REST
-    }
-
-    public String languagesISpeak(String environment) {
-        switch (environment) {
-            case "Tunisia":
-                return "Arabic";
-            case "USA":
-                return "English";
-            case "France":
-                return "French";
-            case "Italy":
-                return "Italian";
-            default:
-                return "Arabic";
-        }
-    }
-
-    public ArrayList<String> activities() {
-        return new ArrayList<>(Arrays.asList(
-                "Productivity nerd",
-                "Language enthusiast"));
+    public String mindset() {
+        return "Build. Learn. Improve. Repeat.";
     }
 }
-
 ```
+
+## 🛠️ Technologies & Tools
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,js,ts,php,python,html,css" />
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,angular,vite,tailwind" />
+</p>
+
+### Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,spring,symfony" />
+</p>
+
+### Databases
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" />
+</p>
+
+### DevOps & Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,jenkins,github,git,linux,grafana,prometheus" />
+</p>
+
+---
+
+## 🚀 What I Do
+
+* 💻 Build full-stack web applications
+* 🏗️ Design scalable backend architectures
+* 🗄️ Work with relational and NoSQL databases
+* 🔐 Implement authentication and authorization systems
+* 🔄 Design RESTful APIs and business workflows
+* ⚙️ Automate development and deployment processes
+* 📊 Monitor applications and infrastructure
+* 📚 Continuously learn and explore new technologies
+
+---
+
+## 📌 Current Focus
+
+I'm currently focused on improving my skills in:
+
+**Full-Stack Development · Software Architecture · DevOps · Cloud Technologies · System Design**
+
+---
+
+## 🌱 Beyond Code
+
+When I'm not developing software, I'm usually exploring new technologies, learning languages, working on personal projects, or looking for better ways to solve problems.
+
+> **"Great software isn't just written. It's designed, refined, and continuously improved."**
+
+---
+
+<p align="center">
+  <strong>Thanks for visiting my profile!</strong>
+  <br>
+  Feel free to explore my repositories and connect with me.
+</p>
