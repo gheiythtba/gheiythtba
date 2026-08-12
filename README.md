@@ -1,14 +1,15 @@
 <h1 align="center">Hi, I'm Gheiyth 👋</h1>
 
 <p align="center">
-  <strong>Software Engineer · Full-Stack Developer</strong>
-</p>
-
-<p align="center">
   <a href="https://github.com/gheiythtba">
     <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
-<img src="https://raw.githubusercontent.com/gheiythtba/gheiythtba/main/.github/profile/views.svg" /></p>
+
+  <img
+    src="https://hits.sh/github.com/gheiythtba.svg"
+    alt="Profile Views"
+  />
+</p>
 
 ---
 
