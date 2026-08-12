@@ -5,35 +5,59 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TabarkiGheiyth">
+  <a href="https://github.com/gheiythtba">
     <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=TabarkiGheiyth&style=flat&label=Profile+Views" />
+  <img src="https://komarev.com/ghpvc/?username=gheiythtba&style=flat&label=Profile+Views" />
 </p>
 
 ---
 
-### About
+### 👨‍💻 About Me
 
-```text
-▸ Building full-stack applications
-▸ Interested in software architecture & backend systems
-▸ Exploring DevOps, automation & cloud technologies
-▸ Always learning. Always building.
+```java
+public class Gheiyth {
+
+    String role = "Software Engineer";
+    String focus = "Full-Stack Development";
+
+    String[] interests = {
+        "Software Architecture",
+        "Backend Engineering",
+        "DevOps",
+        "Automation"
+    };
+
+    String mindset = "Build. Learn. Improve.";
+}
 ```
 
-### Tech Stack
+### ⚡ Tech Stack
+
+**Languages**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,ts,js,react,angular,postgres,mysql,docker,git&perline=6" height="32"/>
+  <img src="https://skillicons.dev/icons?i=java,js,ts,php,html,css&perline=6" height="28"/>
 </p>
 
-### Currently
+**Frameworks & Runtime**
 
-`Full-Stack Development` · `Backend` · `DevOps` · `System Design`
+<p>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,react,angular&perline=5" height="28"/>
+</p>
+
+**Databases & Infrastructure**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,git,jenkins,grafana&perline=6" height="28"/>
+</p>
+
+### 🎯 Focus
+
+`Full-Stack` · `Backend` · `DevOps` · `System Design`
 
 ---
 
 <p align="center">
-  <i>Build → Learn → Improve</i>
+  <i>Turning ideas into software.</i>
 </p>
