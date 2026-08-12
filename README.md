@@ -8,8 +8,7 @@
   <a href="https://github.com/gheiythtba">
     <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=gheiythtba&style=flat&label=Profile+Views" />
-</p>
+<img src="https://raw.githubusercontent.com/gheiythtba/gheiythtba/main/.github/profile/views.svg" /></p>
 
 ---
 
