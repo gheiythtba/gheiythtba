@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/TabarkiGheiyth">
-    <img src="https://img.shields.io/github/followers/TabarkiGheiyth?style=flat&label=Followers" />
+    <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=TabarkiGheiyth&style=flat&label=Profile+Views" />
 </p>
