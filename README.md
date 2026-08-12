@@ -5,9 +5,9 @@
     <img src="https://img.shields.io/github/followers/gheiythtba?style=flat&label=Followers" />
   </a>
   <img
-    src="https://hits.sh/github.com/gheiythtba.svg"
-    alt="Profile Views"
-  />
+  src="https://hits.sh/github.com/gheiythtba.svg?style=flat&label=Profile%20Views&logo=github"
+  alt="Profile Views"
+/>
 </p>
 
 ---
